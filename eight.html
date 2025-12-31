@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjeet | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f172a;
+            color: #e5e7eb;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #38bdf8;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .typing {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #38bdf8;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid #a78bfa;
+            width: 0;
+            margin: auto;
+            animation: typing 4s steps(40, end) forwards,
+                blink 0.7s infinite;
+        }
+
+        .typing span {
+            color: #a78bfa;
+            margin: 0 8px;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 32ch;
+                /* FIX: ab pura text dikhega */
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        h2 {
+            color: #a78bfa;
+            margin-top: 30px;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #cbd5f5;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+            font-size: 15px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 10px 15px 10px 0;
+            text-decoration: none;
+            color: #0f172a;
+            background-color: #38bdf8;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #a78bfa;
+            color: white;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #334155;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>This is my Portfolio</h1>
+
+        <p class="typing">
+            Full Stack Developer <span>|</span> DSA Problem Solver
+        </p>
+
+        <hr>
+
+        <h2>B.Tech in Computer Science</h2>
+        <p>
+            My name is <b>Ranjeet Kurmi</b>.
+            I have knowledge of <b>Data Structures and Algorithms (DSA)</b>
+            and I am currently learning <b>Full Stack Development</b>.
+        </p>
+
+        <h2>Frontend Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h2>Backend Skills</h2>
+        <ul>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+        </ul>
+
+        <h2>My Coding Profiles</h2>
+        <div class="links">
+            <a href="https://leetcode.com/u/1K9ijiVvIN/" target="_blank">LeetCode</a>
+            <a href="https://github.com/ranjeet59" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/ranjeet-kurmi-b4aa1033a/" target="_blank">LinkedIn</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
